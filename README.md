@@ -1,1 +1,1 @@
-# stemmuse.github.io
+# STEMMuse.github.io
