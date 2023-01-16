@@ -25,6 +25,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2761,6 +2762,7 @@ input, select, textarea {
 			h3 {
 				font-size: 1.25em;
 			}
+	
 
 			hr {
 				top: 3em;
@@ -3136,5 +3138,9 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
+	
 
 	}
+
+
+

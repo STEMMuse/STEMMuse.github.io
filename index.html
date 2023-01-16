@@ -9,8 +9,98 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	  <!--====== Design by foolishdeveloper.com =====-->
+  
+  
+	  <title>Automatic Popup</title>
+	  <!--Google Fonts-->
+	  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	  <!--Stylesheets-->
+	  <style media="screen">
+		*,
+  *:before,
+  *:after{
+	  padding: 0;
+	  margin: 0;
+	  box-sizing: border-box;
+  }
+
+  .popup{
+	  background-color: #ffffff;
+	  border: solid #000;
+	  width: 480px;
+	  padding: 10px 40px;
+	  position: absolute;
+	  transform: translate(-50%,-50%);
+	  left: 50%;
+	  top: 50%;
+	  border-width: 0 20px;
+	  border-color: #0000;
+	  font-family: "Poppins",sans-serif;
+	  text-align: center;
+	  border-right:1px solid #000;
+	  border-left:1px solid #000;
+      border-top:1px solid #000;
+	  border-bottom:1px solid #000;
+	  z-index: 0;
+  }
+  .popup button{
+    display: block;
+    background-color: transparent;
+    font-size: 30px;
+    color: #000;
+	border-radius: 100%;
+    width: 770px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+	margin-top: 20px;
+	background-color: transparent;
+	font-size: 15.5pt;
+  }
+  .popup p{
+	  font-size: 14px;
+	  margin: 20px 0;
+	  line-height: 25px;
+	  text-align: center;
+  }
+  .popup a{
+	color: rgba(249, 167, 39, 1);
+  }
+	
+	  </style>
+	
 	</head>
+
+
 	<body class="no-sidebar is-preload">
+		<div class="popup">
+			<button id="close">&times;</button>
+			<h2>Join our newsletter and community!</h2>
+			<p>Whether you're a woman in STEM seeking support, an ally, or a supporter of STEM Muse, we'd love to have you join our community.</p>
+			<a href="https://utexas.qualtrics.com/jfe/form/SV_dhEwjsNkTWMPX9Q">Sign up for our newsletter for updates and indicate your interest in STEM Muse here! </a>
+		</div>
+		<!--Script-->
+		<script type="text/javascript">
+	window.addEventListener("load", function(){
+		setTimeout(
+			function open(event){
+				document.querySelector(".popup").style.display = "block";
+
+			},
+			0
+		)
+	});
+	
+	
+	document.querySelector("#close").addEventListener("click", function(){
+		document.querySelector(".popup").style.display = "none";
+	});
+		</script>
+
+
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -248,7 +338,7 @@
 										<li>
 											<article class="post stub">
 												<header>
-													<h3><a href="https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_d05yAkAHcrRYIsK">Join our newsletter!</a></h3>
+													<h3><a href="https://utexas.qualtrics.com/jfe/form/SV_dhEwjsNkTWMPX9Q">Contact us and join our newsletter!</a></h3>
 												</header>
 												<span class="tweet"> Stay updated with our news and resources related to mentorship. </span>
 											</article>
