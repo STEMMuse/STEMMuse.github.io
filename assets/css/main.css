@@ -2424,7 +2424,7 @@ input, select, textarea {
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 4.5em 4.5em 4.5em 4.5em;
 		margin-bottom: 0;
 	}
 
