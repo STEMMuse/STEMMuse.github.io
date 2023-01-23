@@ -85,11 +85,11 @@ input, select, textarea {
 
 	body {
 		background: #f0f4f4;
-		color: #5b5b5b;
-		font-size: 15pt;
+		color: #373636;
+		font-size: 18pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+		font-weight: 350;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -111,6 +111,11 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-weight: 400;
+		color: #000;
+		line-height: 1.25em;
+	}
+	h1 {
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
@@ -141,7 +146,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: #000;
 	}
 
 	em, i {
@@ -1777,11 +1782,18 @@ input, select, textarea {
 		margin: 2.5em 0 0 0;
 	}
 
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	  }
+
 /* Image */
 
 	.image {
 		position: relative;
-		display: inline-block;
+		display: center;
 		border: 0;
 		outline: 0;
 	}
@@ -1945,7 +1957,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #483949;
+		color: #000;
 		margin: 0 0 1em 0;
 	}
 
@@ -2178,7 +2190,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/header2.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
